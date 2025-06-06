@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Music Teacher</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+    <!-- Add these lines to include your JavaScript files -->
+    <script src="/static/js/midi-visualization.js"></script>
+    <script src="/static/js/chatbot.js"></script>
+    <script src="/static/js/learning-plan.js"></script>
+    <style>
+        .chat-message {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background-color: #e9f5ff;
+            text-align: right;
+        }
+        .assistant-message {
+            background-color: #f0f0f0;
+        }
+        #chatHistory {
+            height: 400px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">AI Music Teacher</h1>
+        
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="converter-tab" data-bs-toggle="tab" data-bs-target="#converter" type="button" role="tab" aria-controls="converter" aria-selected="true">Audio to MIDI</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="chatbot-tab" data-bs-toggle="tab" data-bs-target="#chatbot" type="button" role="tab" aria-controls="chatbot" aria-selected="false">Music Chatbot</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="learning-plan-tab" data-bs-toggle="tab" data-bs-target="#learning-plan" type="button" role="tab" aria-controls="learning-plan" aria-selected="false">Learning Plan</button>
+            </li>
+        </ul>
+        
+        <!-- Tab Content -->
+        <div class="tab-content" id="myTabContent">
+            <!-- Audio to MIDI Converter Tab -->
+            <div class="tab-pane fade show active" id="converter" role="tabpanel" aria-labelledby="converter-tab">
+                <div class="row mt-4">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="card-title">Upload Music</h3>
+                            </div>
+                            <div class="card-body">
+                                <form id="uploadForm" enctype="multipart/form-data">
+                                    <div class="mb-3">
+                                        <label for="audioFile" class="form-label">Choose MP3 File</label>
+                                        <input class="form-control" type="file" id="audioFile" accept=".mp3">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Convert to MIDI</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="resultSection" class="row mt-4 d-none">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3 class="card-title">MIDI Visualization</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12 mb-4">
+                                        <h4>Original Audio</h4>
+                                        <audio id="originalAudio" controls class="w-100"></audio>
+                                    </div>
+                                    
+                                    <div class="col-md-12 mb-4">
+                                        <h4>MIDI Player</h4>
+                                        <midi-player id="midiPlayer" sound-font visualizer="#midiVisualizer"></midi-player>
+                                    </div>
+                                    
+                                    <div class="col-md-12 mb-3">
+                                        <h4>Visualization Settings</h4>
+                                        <div class="btn-group" role="group" aria-label="Visualization Type">
+                                            <input type="radio" class="btn-check" name="visualizationType" id="pianoRoll" value="piano-roll" checked>
+                                            <label class="btn btn-outline-primary" for="pianoRoll">Piano Roll</label>
+                                            
+                                            <input type="radio" class="btn-check" name="visualizationType" id="waterfall" value="waterfall">
+                                            <label class="btn btn-outline-primary" for="waterfall">Piano Keyboard</label>
+                                            
+                                            <input type="radio" class="btn-check" name="visualizationType" id="staff" value="staff">
+                                            <label class="btn btn-outline-primary" for="staff">Music Staff</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                        <h4>MIDI Visualization</h4>
+                                        <midi-visualizer id="midiVisualizer" type="piano-roll"></midi-visualizer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Chatbot Tab -->
+            <div class="tab-pane fade" id="chatbot" role="tabpanel" aria-labelledby="chatbot-tab">
+                <div class="row mt-4">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="card-title">Music Teacher Chatbot</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="useRag" checked>
+                                    <label class="form-check-label" for="useRag">
+                                        Use Advanced Music Knowledge Base
+                                    </label>
+                                    <small class="form-text text-muted">When enabled, uses a specialized music education knowledge base</small>
+                                </div>
+                                
+                                <div id="chatHistory">
+                                    <!-- Chat messages will be added here -->
+                                </div>
+                                
+                                <form id="chatForm">
+                                    <div class="input-group">
+                                        <input type="text" id="userMessage" class="form-control" placeholder="Ask about music theory, practice techniques, or instruments...">
+                                        <button class="btn btn-primary" type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Learning Plan Tab -->
+            <div class="tab-pane fade" id="learning-plan" role="tabpanel" aria-labelledby="learning-plan-tab">
+                <div class="row mt-4">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="card-title">Learning Plan Generator</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Generate a personalized learning plan based on your musical goals and current skill level.</p>
+                                
+                                <form id="learningPlanForm">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label for="instrument" class="form-label">Instrument</label>
+                                                <select class="form-select" id="instrument" name="instrument" required>
+                                                    <option value="Piano">Piano</option>
+                                                    <option value="Guitar">Guitar</option>
+                                                    <option value="Violin">Violin</option>
+                                                    <option value="Voice">Voice</option>
+                                                    <option value="Drums">Drums</option>
+                                                    <option value="Bass">Bass</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="mb-3" id="otherInstrumentDiv" style="display: none;">
+                                                <label for="otherInstrument" class="form-label">Specify Instrument</label>
+                                                <input type="text" class="form-control" id="otherInstrument" name="other_instrument">
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label for="experienceLevel" class="form-label">Experience Level</label>
+                                                <select class="form-select" id="experienceLevel" name="experience_level" required>
+                                                    <option value="Complete Beginner">Complete Beginner</option>
+                                                    <option value="Beginner">Beginner</option>
+                                                    <option value="Intermediate">Intermediate</option>
+                                                    <option value="Advanced">Advanced</option>
+                                                    <option value="Professional">Professional</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label for="practiceTime" class="form-label">Available Practice Time (minutes per day)</label>
+                                                <input type="range" class="form-range" id="practiceTime" name="practice_time" min="10" max="180" value="30">
+                                                <div class="text-center" id="practiceTimeValue">30 minutes</div>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label class="form-label">Learning Goals (select all that apply)</label>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Learn to read music" id="goal1">
+                                                    <label class="form-check-label" for="goal1">Learn to read music</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Play by ear" id="goal2">
+                                                    <label class="form-check-label" for="goal2">Play by ear</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Improvisation" id="goal3">
+                                                    <label class="form-check-label" for="goal3">Improvisation</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Music theory" id="goal4">
+                                                    <label class="form-check-label" for="goal4">Music theory</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Compose music" id="goal5">
+                                                    <label class="form-check-label" for="goal5">Compose music</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="goals" value="Play specific songs" id="goal6">
+                                                    <label class="form-check-label" for="goal6">Play specific songs</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="text-center mt-3">
+                                        <button type="submit" class="btn btn-primary">Generate Learning Plan</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-md-10 offset-md-1" id="planResult">
+                        <!-- Learning plan will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Add Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Additional JavaScript for the learning plan form -->
+    <script>
+        // Show/hide other instrument field
+        document.addEventListener('DOMContentLoaded', function() {
+            const instrumentSelect = document.getElementById('instrument');
+            const otherInstrumentDiv = document.getElementById('otherInstrumentDiv');
+            
+            if (instrumentSelect && otherInstrumentDiv) {
+                instrumentSelect.addEventListener('change', function() {
+                    if (this.value === 'Other') {
+                        otherInstrumentDiv.style.display = 'block';
+                    } else {
+                        otherInstrumentDiv.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Update practice time display
+            const practiceTimeSlider = document.getElementById('practiceTime');
+            const practiceTimeValue = document.getElementById('practiceTimeValue');
+            
+            if (practiceTimeSlider && practiceTimeValue) {
+                practiceTimeSlider.addEventListener('input', function() {
+                    practiceTimeValue.textContent = this.value + ' minutes';
+                });
+            }
+        });
+    </script>
+</body>
+</html>

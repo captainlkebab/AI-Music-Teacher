@@ -1,0 +1,11 @@
+{
+  "questions": [
+    {
+      "question_id": "9052dc87-93b1-4ea4-aa1a-35a0d658c86f",
+      "user_id": "0e86b425-111e-4877-80f4-2dd0394cc11c",
+      "timestamp": "2025-05-20T11:23:50.508738",
+      "question": "was ist eine viertel note",
+      "answer": "Eine Viertelnote ist ein musikalisches Notensymbol, das einen bestimmten zeitlichen Wert repräsentiert. In der Musik entspricht eine Viertelnote einem Viertel eines Taktes in einem 4/4-Takt, was bedeutet, dass vier Viertelnoten einen ganzen Takt ausmachen. Sie wird oft verwendet, um rhythmische Muster zu erstellen und ist ein grundlegendes Element in der Notation von Musik. In Bezug auf die durational values wird eine Viertelnote als die Hälfte einer halben Note und ein Viertel eines ganzen Notenwertes betrachtet (Kapitel 1, Die Elemente des Rhythmus: Klang, Symbol und Zeit, 1.1 Durational Values: Symbols Representing Time in Music, S. 11)."
+    }
+  ]
+}

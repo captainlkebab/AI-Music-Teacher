@@ -1,0 +1,4 @@
+2025-05-27 11:45:48,438 - musicxml_converter - INFO - Starting conversion of MusicXML file: c:\Users\samil\Documents\PythonScripts\AIMusicTeacher\Oemer\Test1.musicxml
+2025-05-27 11:45:48,439 - musicxml_converter - INFO - Parsing MusicXML with music21
+2025-05-27 11:45:48,602 - musicxml_converter - INFO - Writing MIDI file to c:\Users\samil\Documents\PythonScripts\AIMusicTeacher\Oemer\Test1.mid
+2025-05-27 11:45:48,686 - musicxml_converter - INFO - Conversion completed successfully

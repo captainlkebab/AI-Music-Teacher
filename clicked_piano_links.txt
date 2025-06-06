@@ -1,0 +1,31 @@
+Links clicked from https://imslp.org/wiki/Special:DiffPage/DiffMain/1
+Total links clicked: 25
+
+FEEDER LINKS:
+1. Text: 3 Sketches for Little Pianists | URL: https://imslp.org/wiki/3_Sketches_for_Little_Pianists_(Price,_Florence)#IMSLP817756
+2. Text: 6 Preludes and Fugues, Op.53 | URL: https://imslp.org/wiki/6_Preludes_and_Fugues,_Op.53_(Rubinstein,_Anton)#IMSLP06935
+3. Text: 4 Preludes and Fugues, Op.101 | URL: https://imslp.org/wiki/4_Preludes_and_Fugues,_Op.101_(Glazunov,_Aleksandr)#IMSLP07127
+4. Text: Canon and Fugue on a Theme by Shostakovich | URL: https://imslp.org/wiki/Canon_and_Fugue_on_a_Theme_by_Shostakovich_(Ibrahim,_Zacharia)#IMSLP965788
+5. Text: 36 Fugues pour Piano, Op.36 | URL: https://imslp.org/wiki/36_Fugues_pour_Piano,_Op.36_(Reicha,_Anton)#IMSLP578027
+6. Text: 12 Preludes and Fugues | URL: https://imslp.org/wiki/12_Preludes_and_Fugues_(Belkin,_Alan)#IMSLP19228
+7. Text: Islamey, Op.18 | URL: https://imslp.org/wiki/Islamey,_Op.18_(Balakirev,_Mily)#IMSLP435015
+8. Text: Canon and Fugue on a Theme by Shostakovich | URL: https://imslp.org/wiki/Canon_and_Fugue_on_a_Theme_by_Shostakovich_(Ibrahim,_Zacharia)#IMSLP965788
+9. Text: Etudes de Concert | URL: https://imslp.org/wiki/Etudes_de_Concert_(Ponce,_Manuel)#IMSLP553127
+10. Text: Piano Sonata No.7, Op.83 | URL: https://imslp.org/wiki/Piano_Sonata_No.7,_Op.83_(Prokofiev,_Sergey)#IMSLP00175
+
+DIFFICULTY LINKS:
+1. Text: First Year Pieces | URL: https://imslp.org/wiki/First_Year_Pieces_(Dunhill,_Thomas)#IMSLP633235
+2. Text: Dunhill, Thomas | URL: https://imslp.org/wiki/Category:Dunhill,_Thomas
+3. Text: First Term at the Piano, Sz.53 | URL: https://imslp.org/wiki/First_Term_at_the_Piano,_Sz.53_(Bart%C3%B3k,_B%C3%A9la)#IMSLP42575
+4. Text: Bartók, Béla | URL: https://imslp.org/wiki/Category:Bart%C3%B3k,_B%C3%A9la
+5. Text: 120 Handstücke für angehende Klavierspieler | URL: https://imslp.org/wiki/120_Handst%C3%BCcke_f%C3%BCr_angehende_Klavierspieler_(T%C3%BCrk,_Daniel_Gottlob)#IMSLP299257
+6. Text: Türk, Daniel Gottlob | URL: https://imslp.org/wiki/Category:T%C3%BCrk,_Daniel_Gottlob
+7. Text: John Thompson's Easiest Piano Course | URL: https://imslp.org/wiki/John_Thompson's_Easiest_Piano_Course_(Thompson,_John_Sylvanus)#IMSLP446802
+8. Text: Thompson, John Sylvanus | URL: https://imslp.org/wiki/Category:Thompson,_John_Sylvanus
+9. Text: 60 Easy Piano Pieces, Op.36 | URL: https://imslp.org/wiki/60_Easy_Piano_Pieces,_Op.36_(Gedike,_Aleksandr)#IMSLP529849
+10. Text: Gedike, Aleksandr | URL: https://imslp.org/wiki/Category:Gedike,_Aleksandr
+11. Text: Guida di Musica, Op.37 | URL: https://imslp.org/wiki/Guida_di_Musica,_Op.37_(Hook,_James)#IMSLP372029
+12. Text: Hook, James | URL: https://imslp.org/wiki/Category:Hook,_James
+13. Text: 120 Handstücke für angehende Klavierspieler | URL: https://imslp.org/wiki/120_Handst%C3%BCcke_f%C3%BCr_angehende_Klavierspieler_(T%C3%BCrk,_Daniel_Gottlob)#IMSLP84991
+14. Text: Türk, Daniel Gottlob | URL: https://imslp.org/wiki/Category:T%C3%BCrk,_Daniel_Gottlob
+15. Text: First Year Pieces | URL: https://imslp.org/wiki/First_Year_Pieces_(Dunhill,_Thomas)#IMSLP633235

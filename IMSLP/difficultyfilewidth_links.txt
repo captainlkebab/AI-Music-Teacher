@@ -1,0 +1,13 @@
+Links extracted from https://imslp.org/wiki/Special:DiffPage/DiffMain/1
+Total links clicked: 10
+
+1. Text: 7. On the River Bank | URL: https://imslp.org/wiki/Special:ImagefromIndex/633235
+2. Text: 4. Conversation I (Dialogue I) | URL: https://imslp.org/index.php?pages=2&title=Special:ImagefromIndex/42575
+3. Text: 25. Jugendlich froh (Youthful Happiness) | URL: https://imslp.org/index.php?pages=13&title=Special:ImagefromIndex/299257
+4. Text: The Dancing Bear | URL: https://imslp.org/wiki/Special:ImagefromIndex/446802
+5. Text: 3. A Song | URL: https://imslp.org/index.php?pages=3&title=Special:ImagefromIndex/529849
+6. Text: Lesson 2: Tempo di minuetto | URL: https://imslp.org/index.php?pages=8&title=Special:ImagefromIndex/372029
+7. Text: 12. Kinder-Romanze (Children's Ballad) | URL: https://imslp.org/index.php?pages=4&title=Special:ImagefromIndex/84991
+8. Text: 8. A Song of Erin | URL: https://imslp.org/wiki/Special:ImagefromIndex/633235
+9. Text: 2. Hanns ohne Sorgen (A Carefree Fellow) | URL: https://imslp.org/index.php?pages=2&title=Special:ImagefromIndex/84991
+10. Text: Air préparatoire No. 6 | URL: https://imslp.org/index.php?pages=19&title=Special:ImagefromIndex/289320

@@ -1,0 +1,205 @@
+Links extracted from https://imslp.org/wiki/Special:DiffPage/DiffMain/1
+Total links found: 202
+
+1. Text: [No text] | URL: https://imslp.org/wiki/Main_Page
+2. Text: Page | URL: None
+3. Text: [No text] | URL: https://imslp.org/wiki/Special:DiffPage/DiffMain/1
+4. Text: Log in | URL: None
+5. Text: [No text] | URL: https://imslp.org/index.php?title=Special:UserLogin&returnto=Special%3ADiffPage%2FDiffMain%2F1
+6. Text: [No text] | URL: None
+7. Text: [No text] | URL: None
+8. Text: [No text] | URL: None
+9. Text: [No text] | URL: None
+10. Text: [No text] | URL: None
+11. Text: Navigation | URL: None
+12. Text: [No text] | URL: https://imslp.org/wiki/Main_Page
+13. Text: [No text] | URL: https://imslp.org/wiki/Special:RecentChanges
+14. Text: [No text] | URL: https://imslp.org/wiki/Special:Random
+15. Text: Scores | URL: None
+16. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Difficulty
+17. Text: [No text] | URL: https://imslp.org/wiki/Category:Composers
+18. Text: [No text] | URL: https://imslp.org/wiki/Category:People
+19. Text: [No text] | URL: https://imslp.org/wiki/Category:People_by_nationality
+20. Text: [No text] | URL: https://imslp.org/wiki/Browse_people_by_time_period
+21. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:View_Genres
+22. Text: [No text] | URL: https://imslp.org/wiki/Category:WIMA_files
+23. Text: Recordings | URL: None
+24. Text: [No text] | URL: https://imslp.org/index.php?title=Category:People_with_recordings&memberitst=Recordings
+25. Text: [No text] | URL: https://imslp.org/wiki/Category:Performers
+26. Text: [No text] | URL: https://imslp.org/wiki/Category:Pages_with_commercial_recordings
+27. Text: Participate | URL: None
+28. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Contributor_Portal
+29. Text: [No text] | URL: https://imslp.org/index.php?title=Special:WikiForumNext/recent-discussions//1/4
+30. Text: [No text] | URL: https://imslpforums.org/
+31. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:IRC_Access
+32. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:FAQ
+33. Text: [No text] | URL: https://imslp.org/wiki/Help:Contents
+34. Text: Other | URL: None
+35. Text: [No text] | URL: https://imslp.org/index.php?title=Category:Pages_with_parts_for_purchase&simplesubcat=1&launchtab=parts
+36. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Subscriptions
+37. Text: [No text] | URL: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=payments@imslp.org&item_name=IMSLP+%2F+Petrucci+Music+Library&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP-DonationsBF&charset=UTF-8&notify_url=http%3A%2F%2Fimslp.org%2Fimslpscripts%2Fshop%2FPPDonationsIPN.ISCR.php
+38. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Site_support
+39. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Sponsored_Composers
+40. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Jobs
+41. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:About
+42. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Select_Language
+43. Text: [No text] | URL: https://imslp.org/wiki/Special:Upload
+44. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Sitemap
+45. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:Privacy_policy
+46. Text: [No text] | URL: https://imslp.org/wiki/IMSLP:General_disclaimer
+47. Text: First Year Pieces | URL: https://imslp.org/wiki/First_Year_Pieces_(Dunhill,_Thomas)#IMSLP633235
+48. Text: Dunhill, Thomas | URL: https://imslp.org/wiki/Category:Dunhill,_Thomas
+49. Text: 7. On the River Bank | URL: https://imslp.org/wiki/Special:ImagefromIndex/633235/qx84
+50. Text: (0) | URL: None
+51. Text: [No text] | URL: None
+52. Text: [No text] | URL: None
+53. Text: [No text] | URL: None
+54. Text: First Term at the Piano, Sz.53 | URL: https://imslp.org/wiki/First_Term_at_the_Piano,_Sz.53_(Bart%C3%B3k,_B%C3%A9la)#IMSLP42575
+55. Text: Bartók, Béla | URL: https://imslp.org/wiki/Category:Bart%C3%B3k,_B%C3%A9la
+56. Text: 4. Conversation I (Dialogue I) | URL: https://imslp.org/index.php?pages=2&title=Special:ImagefromIndex/42575/qx84
+57. Text: (0) | URL: None
+58. Text: [No text] | URL: None
+59. Text: [No text] | URL: None
+60. Text: [No text] | URL: None
+61. Text: 120 Handstücke für angehende Klavierspieler | URL: https://imslp.org/wiki/120_Handst%C3%BCcke_f%C3%BCr_angehende_Klavierspieler_(T%C3%BCrk,_Daniel_Gottlob)#IMSLP299257
+62. Text: Türk, Daniel Gottlob | URL: https://imslp.org/wiki/Category:T%C3%BCrk,_Daniel_Gottlob
+63. Text: 25. Jugendlich froh (Youthful Happiness) | URL: https://imslp.org/index.php?pages=13&title=Special:ImagefromIndex/299257/qx84
+64. Text: (0) | URL: None
+65. Text: [No text] | URL: None
+66. Text: [No text] | URL: None
+67. Text: [No text] | URL: None
+68. Text: John Thompson's Easiest Piano Course | URL: https://imslp.org/wiki/John_Thompson's_Easiest_Piano_Course_(Thompson,_John_Sylvanus)#IMSLP446802
+69. Text: Thompson, John Sylvanus | URL: https://imslp.org/wiki/Category:Thompson,_John_Sylvanus
+70. Text: The Dancing Bear | URL: https://imslp.org/wiki/Special:ImagefromIndex/446802/qx84
+71. Text: (0) | URL: None
+72. Text: [No text] | URL: None
+73. Text: [No text] | URL: None
+74. Text: [No text] | URL: None
+75. Text: 60 Easy Piano Pieces, Op.36 | URL: https://imslp.org/wiki/60_Easy_Piano_Pieces,_Op.36_(Gedike,_Aleksandr)#IMSLP529849
+76. Text: Gedike, Aleksandr | URL: https://imslp.org/wiki/Category:Gedike,_Aleksandr
+77. Text: 3. A Song | URL: https://imslp.org/index.php?pages=3&title=Special:ImagefromIndex/529849/qx84
+78. Text: (0) | URL: None
+79. Text: [No text] | URL: None
+80. Text: [No text] | URL: None
+81. Text: [No text] | URL: None
+82. Text: 120 Handstücke für angehende Klavierspieler | URL: https://imslp.org/wiki/120_Handst%C3%BCcke_f%C3%BCr_angehende_Klavierspieler_(T%C3%BCrk,_Daniel_Gottlob)#IMSLP84991
+83. Text: Türk, Daniel Gottlob | URL: https://imslp.org/wiki/Category:T%C3%BCrk,_Daniel_Gottlob
+84. Text: 12. Kinder-Romanze (Children's Ballad) | URL: https://imslp.org/index.php?pages=4&title=Special:ImagefromIndex/84991/qx84
+85. Text: (0) | URL: None
+86. Text: [No text] | URL: None
+87. Text: [No text] | URL: None
+88. Text: [No text] | URL: None
+89. Text: First Year Pieces | URL: https://imslp.org/wiki/First_Year_Pieces_(Dunhill,_Thomas)#IMSLP633235
+90. Text: Dunhill, Thomas | URL: https://imslp.org/wiki/Category:Dunhill,_Thomas
+91. Text: 8. A Song of Erin | URL: https://imslp.org/wiki/Special:ImagefromIndex/633235/qx84
+92. Text: (0) | URL: None
+93. Text: [No text] | URL: None
+94. Text: [No text] | URL: None
+95. Text: [No text] | URL: None
+96. Text: Guida di Musica, Op.37 | URL: https://imslp.org/wiki/Guida_di_Musica,_Op.37_(Hook,_James)#IMSLP372029
+97. Text: Hook, James | URL: https://imslp.org/wiki/Category:Hook,_James
+98. Text: Lesson 2: Tempo di minuetto | URL: https://imslp.org/index.php?pages=8&title=Special:ImagefromIndex/372029/qx84
+99. Text: (0) | URL: None
+100. Text: [No text] | URL: None
+101. Text: [No text] | URL: None
+102. Text: [No text] | URL: None
+103. Text: First Year Pieces | URL: https://imslp.org/wiki/First_Year_Pieces_(Dunhill,_Thomas)#IMSLP633235
+104. Text: Dunhill, Thomas | URL: https://imslp.org/wiki/Category:Dunhill,_Thomas
+105. Text: 1. Melody in C | URL: https://imslp.org/wiki/Special:ImagefromIndex/633235/qx84
+106. Text: (0) | URL: None
+107. Text: [No text] | URL: None
+108. Text: [No text] | URL: None
+109. Text: [No text] | URL: None
+110. Text: 120 Handstücke für angehende Klavierspieler | URL: https://imslp.org/wiki/120_Handst%C3%BCcke_f%C3%BCr_angehende_Klavierspieler_(T%C3%BCrk,_Daniel_Gottlob)#IMSLP299257
+111. Text: Türk, Daniel Gottlob | URL: https://imslp.org/wiki/Category:T%C3%BCrk,_Daniel_Gottlob
+112. Text: 3. Der muntre Knabe (The Lively Boy) | URL: https://imslp.org/index.php?pages=5&title=Special:ImagefromIndex/299257/qx84
+113. Text: (0) | URL: None
+114. Text: [No text] | URL: None
+115. Text: [No text] | URL: None
+116. Text: [No text] | URL: None
+117. Text: 3 Sketches for Little Pianists | URL: https://imslp.org/wiki/3_Sketches_for_Little_Pianists_(Price,_Florence)#IMSLP817756
+118. Text: Price, Florence | URL: https://imslp.org/wiki/Category:Price,_Florence
+119. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/817756/qx84
+120. Text: Owaine1 | URL: https://imslp.org/wiki/User:Owaine1
+121. Text: (0) | URL: None
+122. Text: [No text] | URL: None
+123. Text: [No text] | URL: None
+124. Text: [No text] | URL: None
+125. Text: 6 Preludes and Fugues, Op.53 | URL: https://imslp.org/wiki/6_Preludes_and_Fugues,_Op.53_(Rubinstein,_Anton)#IMSLP06935
+126. Text: Rubinstein, Anton | URL: https://imslp.org/wiki/Category:Rubinstein,_Anton
+127. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/06935/qx84
+128. Text: BlackJacket | URL: https://imslp.org/wiki/User:BlackJacket
+129. Text: (0) | URL: None
+130. Text: [No text] | URL: None
+131. Text: [No text] | URL: None
+132. Text: [No text] | URL: None
+133. Text: 4 Preludes and Fugues, Op.101 | URL: https://imslp.org/wiki/4_Preludes_and_Fugues,_Op.101_(Glazunov,_Aleksandr)#IMSLP07127
+134. Text: Glazunov, Aleksandr | URL: https://imslp.org/wiki/Category:Glazunov,_Aleksandr
+135. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/07127/qx84
+136. Text: BlackJacket | URL: https://imslp.org/wiki/User:BlackJacket
+137. Text: (0) | URL: None
+138. Text: [No text] | URL: None
+139. Text: [No text] | URL: None
+140. Text: [No text] | URL: None
+141. Text: Canon and Fugue on a Theme by Shostakovich | URL: https://imslp.org/wiki/Canon_and_Fugue_on_a_Theme_by_Shostakovich_(Ibrahim,_Zacharia)#IMSLP965788
+142. Text: Ibrahim, Zacharia | URL: https://imslp.org/wiki/Category:Ibrahim,_Zacharia
+143. Text: Canon | URL: https://imslp.org/index.php?pages=1-3&title=Special:ImagefromIndex/965788/qx84
+144. Text: Zacharia Ibrahim | URL: https://imslp.org/wiki/User:Zacharia_Ibrahim
+145. Text: (0) | URL: None
+146. Text: [No text] | URL: None
+147. Text: [No text] | URL: None
+148. Text: [No text] | URL: None
+149. Text: 36 Fugues pour Piano, Op.36 | URL: https://imslp.org/wiki/36_Fugues_pour_Piano,_Op.36_(Reicha,_Anton)#IMSLP578027
+150. Text: Reicha, Anton | URL: https://imslp.org/wiki/Category:Reicha,_Anton
+151. Text: Complete Score (monochrome) | URL: https://imslp.org/wiki/Special:ImagefromIndex/578027/qx84
+152. Text: BlackJacket | URL: https://imslp.org/wiki/User:BlackJacket
+153. Text: (0) | URL: None
+154. Text: [No text] | URL: None
+155. Text: [No text] | URL: None
+156. Text: [No text] | URL: None
+157. Text: 12 Preludes and Fugues | URL: https://imslp.org/wiki/12_Preludes_and_Fugues_(Belkin,_Alan)#IMSLP19228
+158. Text: Belkin, Alan | URL: https://imslp.org/wiki/Category:Belkin,_Alan
+159. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/19228/qx84
+160. Text: BlackJacket | URL: https://imslp.org/wiki/User:BlackJacket
+161. Text: (0) | URL: None
+162. Text: [No text] | URL: None
+163. Text: [No text] | URL: None
+164. Text: [No text] | URL: None
+165. Text: Islamey, Op.18 | URL: https://imslp.org/wiki/Islamey,_Op.18_(Balakirev,_Mily)#IMSLP435015
+166. Text: Balakirev, Mily | URL: https://imslp.org/wiki/Category:Balakirev,_Mily
+167. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/435015/qx84
+168. Text: Necro1970 | URL: https://imslp.org/wiki/User:Necro1970
+169. Text: (0) | URL: None
+170. Text: [No text] | URL: None
+171. Text: [No text] | URL: None
+172. Text: [No text] | URL: None
+173. Text: Canon and Fugue on a Theme by Shostakovich | URL: https://imslp.org/wiki/Canon_and_Fugue_on_a_Theme_by_Shostakovich_(Ibrahim,_Zacharia)#IMSLP965788
+174. Text: Ibrahim, Zacharia | URL: https://imslp.org/wiki/Category:Ibrahim,_Zacharia
+175. Text: Fugue | URL: https://imslp.org/index.php?pages=4-11&title=Special:ImagefromIndex/965788/qx84
+176. Text: Zacharia Ibrahim | URL: https://imslp.org/wiki/User:Zacharia_Ibrahim
+177. Text: (0) | URL: None
+178. Text: [No text] | URL: None
+179. Text: [No text] | URL: None
+180. Text: [No text] | URL: None
+181. Text: Etudes de Concert | URL: https://imslp.org/wiki/Etudes_de_Concert_(Ponce,_Manuel)#IMSLP553127
+182. Text: Ponce, Manuel | URL: https://imslp.org/wiki/Category:Ponce,_Manuel
+183. Text: 3. Hacia la Cima | URL: https://imslp.org/wiki/Special:ImagefromIndex/553127/qx84
+184. Text: Godget | URL: https://imslp.org/wiki/User:Godget
+185. Text: (0) | URL: None
+186. Text: [No text] | URL: None
+187. Text: [No text] | URL: None
+188. Text: [No text] | URL: None
+189. Text: Caprice-Valse, Op.1 | URL: https://imslp.org/wiki/Caprice-Valse,_Op.1_(Castro,_Ricardo)#IMSLP10925
+190. Text: Castro, Ricardo | URL: https://imslp.org/wiki/Category:Castro,_Ricardo
+191. Text: Complete Score | URL: https://imslp.org/wiki/Special:ImagefromIndex/10925/qx84
+192. Text: Godget | URL: https://imslp.org/wiki/User:Godget
+193. Text: (0) | URL: None
+194. Text: [No text] | URL: None
+195. Text: [No text] | URL: None
+196. Text: [No text] | URL: None
+197. Text: subscribe | URL: https://imslp.org/wiki/IMSLP:Subscriptions
+198. Text: log in | URL: https://imslp.org/index.php?title=Special:UserLogin&returnto=Special%3ADiffPage%2FDiffMain%2F1
+199. Text: [No text] | URL: http://imslp.org/wiki/Special:DiffPage/DiffMain/1
+200. Text: Creative Commons Attribution-ShareAlike 4.0 License | URL: http://creativecommons.org/licenses/by-sa/4.0/
+201. Text: MediaWiki | URL: http://mediawiki.org/
+202. Text: Switch back to classic skin | URL: https://imslp.org/wiki/Special:SwitchSkin/vector/Special%3ADiffPage%2FDiffMain%2F1

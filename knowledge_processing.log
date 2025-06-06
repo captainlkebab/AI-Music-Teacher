@@ -1,0 +1,109 @@
+2025-05-19 21:39:05,773 - knowledge_processor - INFO - Starting knowledge processing script
+2025-05-19 21:39:05,773 - knowledge_processor - INFO - Loading environment variables
+2025-05-19 21:39:05,774 - knowledge_processor - INFO - Environment variables loaded successfully
+2025-05-19 21:39:05,775 - knowledge_processor - INFO - Opening PDF file: Books/MiscEducationalKeyboardTeacherguide1.pdf
+2025-05-19 21:39:05,778 - knowledge_processor - INFO - PDF opened successfully. Document has 98 pages
+2025-05-19 21:39:05,779 - knowledge_processor - INFO - Extracting text from PDF
+2025-05-19 21:39:06,567 - knowledge_processor - INFO - Text extraction complete. Extracted 122653 characters
+2025-05-19 21:39:06,567 - knowledge_processor - INFO - Splitting text into chunks
+2025-05-19 21:39:06,576 - knowledge_processor - INFO - Text split into 181 chunks
+2025-05-19 21:39:06,577 - knowledge_processor - INFO - Initializing OpenAI embeddings
+2025-05-19 21:39:07,949 - knowledge_processor - INFO - OpenAI embeddings initialized successfully
+2025-05-19 21:39:07,949 - knowledge_processor - INFO - Creating FAISS vector store from text chunks
+2025-05-19 21:39:09,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-19 21:39:10,030 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-19 21:39:10,070 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-19 21:39:10,078 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-19 21:39:10,089 - knowledge_processor - INFO - FAISS vector store created successfully
+2025-05-19 21:39:10,089 - knowledge_processor - INFO - Saving FAISS index to disk
+2025-05-19 21:39:10,092 - knowledge_processor - INFO - FAISS index saved successfully
+2025-05-19 21:39:10,094 - knowledge_processor - INFO - Setting up retriever from vector store
+2025-05-19 21:39:10,094 - knowledge_processor - INFO - Retriever set up successfully
+2025-05-19 21:39:10,094 - knowledge_processor - INFO - Initializing ChatOpenAI model
+2025-05-19 21:39:10,578 - knowledge_processor - INFO - ChatOpenAI model initialized successfully
+2025-05-19 21:39:10,578 - knowledge_processor - INFO - Creating RetrievalQA chain
+2025-05-19 21:39:10,578 - knowledge_processor - INFO - RetrievalQA chain created successfully
+2025-05-19 21:39:10,578 - knowledge_processor - INFO - Running query: 'How do I position my hands when starting to play?'
+2025-05-19 21:39:11,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-19 21:39:16,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 21:39:16,881 - knowledge_processor - INFO - Query completed successfully
+2025-05-19 21:39:16,881 - knowledge_processor - INFO - Response length: 457 characters
+2025-05-19 21:39:16,882 - knowledge_processor - INFO - Script completed in 11.11 seconds
+2025-05-19 21:49:02,682 - knowledge_processor - INFO - Starting knowledge processing script
+2025-05-19 21:49:02,682 - knowledge_processor - INFO - Loading environment variables
+2025-05-19 21:49:02,683 - knowledge_processor - INFO - Environment variables loaded successfully
+2025-05-19 21:49:02,684 - knowledge_processor - INFO - Opening PDF file: Books/MiscEducationalKeyboardTeacherguide1.pdf
+2025-05-19 21:49:02,687 - knowledge_processor - INFO - PDF opened successfully. Document has 98 pages
+2025-05-19 21:49:02,688 - knowledge_processor - INFO - Extracting text from PDF
+2025-05-19 21:49:03,516 - knowledge_processor - INFO - Text extraction complete. Extracted 123624 characters
+2025-05-19 21:49:03,516 - knowledge_processor - INFO - Splitting text into chunks
+2025-05-19 21:49:03,524 - knowledge_processor - INFO - Text split into 181 chunks
+2025-05-19 21:49:03,525 - knowledge_processor - INFO - Initializing OpenAI embeddings
+2025-05-19 21:49:04,110 - knowledge_processor - INFO - OpenAI embeddings initialized successfully
+2025-05-19 21:49:04,110 - knowledge_processor - INFO - Creating FAISS vector store from text chunks
+2025-05-19 21:49:05,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-19 21:49:06,418 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-19 21:49:06,447 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-19 21:49:06,453 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-19 21:49:06,470 - knowledge_processor - INFO - FAISS vector store created successfully
+2025-05-19 21:49:06,470 - knowledge_processor - INFO - Saving FAISS index to disk
+2025-05-19 21:49:06,473 - knowledge_processor - INFO - FAISS index saved successfully
+2025-05-19 21:49:06,473 - knowledge_processor - INFO - Setting up retriever from vector store
+2025-05-19 21:49:06,473 - knowledge_processor - INFO - Retriever set up successfully
+2025-05-19 21:49:06,474 - knowledge_processor - INFO - Initializing ChatOpenAI model
+2025-05-19 21:49:07,072 - knowledge_processor - INFO - ChatOpenAI model initialized successfully
+2025-05-19 21:49:07,072 - knowledge_processor - INFO - Creating RetrievalQA chain
+2025-05-19 21:49:07,111 - knowledge_processor - INFO - RetrievalQA chain created successfully
+2025-05-19 21:49:07,111 - knowledge_processor - INFO - Running query: 'How do I position my hands when starting to play?'
+2025-05-19 21:49:07,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-19 21:49:16,008 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 21:49:16,027 - knowledge_processor - INFO - Query completed successfully
+2025-05-19 21:49:16,028 - knowledge_processor - INFO - Response length: 790 characters
+2025-05-19 21:49:16,028 - knowledge_processor - INFO - Answer: When starting to play, you should position your hands in the middle of the keyboard. If you are using your left hand, you should play the groups of three black keys with fingers 2-3-4 going down the keyboard (Page 12). If you are using your right hand, you should play the groups of three black keys with fingers 2-3-4 going up the keyboard (Page 12). 
+
+When playing the C D E groups, you should use fingers 3-2-1 with your left hand (Page 23). If you are using your right hand, start at the low end of the keyboard and play the C D E groups with individual fingers 1-2-3 going up the keyboard (Page 23). 
+
+Remember to keep a natural curve of your hand and gently lift your wrist between repetitions (Page 23).
+2025-05-19 21:49:16,029 - knowledge_processor - INFO - Script completed in 13.35 seconds
+2025-05-20 11:22:36,791 - knowledge_processor - INFO - Starting knowledge processing script
+2025-05-20 11:22:36,792 - knowledge_processor - INFO - Loading environment variables
+2025-05-20 11:22:36,792 - knowledge_processor - INFO - Environment variables loaded successfully
+2025-05-20 11:22:36,793 - knowledge_processor - INFO - Opening PDF file: Books/music-theory.pdf
+2025-05-20 11:22:36,825 - knowledge_processor - INFO - PDF opened successfully. Document has 222 pages
+2025-05-20 11:22:36,826 - knowledge_processor - INFO - Extracting text from PDF
+2025-05-20 11:22:36,917 - knowledge_processor - INFO - Text extraction complete. Extracted 162628 characters
+2025-05-20 11:22:36,918 - knowledge_processor - INFO - Splitting text into chunks
+2025-05-20 11:22:36,920 - knowledge_processor - INFO - Text split into 219 chunks
+2025-05-20 11:22:36,920 - knowledge_processor - INFO - Initializing OpenAI embeddings
+2025-05-20 11:22:37,302 - knowledge_processor - INFO - OpenAI embeddings initialized successfully
+2025-05-20 11:22:37,302 - knowledge_processor - INFO - Creating FAISS vector store from text chunks
+2025-05-20 11:22:38,965 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-20 11:22:39,950 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-20 11:22:40,083 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-20 11:22:40,093 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-20 11:22:40,109 - knowledge_processor - INFO - FAISS vector store created successfully
+2025-05-20 11:22:40,109 - knowledge_processor - INFO - Saving FAISS index to disk
+2025-05-20 11:22:40,113 - knowledge_processor - INFO - FAISS index saved successfully
+2025-05-20 11:22:40,114 - knowledge_processor - INFO - Setting up retriever from vector store
+2025-05-20 11:22:40,114 - knowledge_processor - INFO - Retriever set up successfully
+2025-05-20 11:22:40,114 - knowledge_processor - INFO - Initializing ChatOpenAI model
+2025-05-20 11:22:40,495 - knowledge_processor - INFO - ChatOpenAI model initialized successfully
+2025-05-20 11:22:40,495 - knowledge_processor - INFO - Creating RetrievalQA chain
+2025-05-20 11:22:40,529 - knowledge_processor - INFO - RetrievalQA chain created successfully
+2025-05-20 11:22:40,530 - knowledge_processor - INFO - Running query: 'How do I position my hands when starting to play?'
+2025-05-20 11:22:41,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-20 11:22:45,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:22:45,255 - knowledge_processor - INFO - Query completed successfully
+2025-05-20 11:22:45,255 - knowledge_processor - INFO - Response length: 1095 characters
+2025-05-20 11:22:45,255 - knowledge_processor - INFO - Answer: When starting to play the keyboard, it's important to position your hands correctly to facilitate ease of movement and proper technique. Here are some guidelines:
+
+1. **Hand Position**: Your fingers should be curved and relaxed, with your fingertips resting on the keys. This allows for better control and agility when playing (Page 74).
+
+2. **Thumb Placement**: Your thumbs should be placed on the white keys, typically on the C note if you are starting in the middle of the keyboard. This is often referred to as the "home position" for beginners (Page 73).
+
+3. **Wrist Height**: Keep your wrists level with the keyboard, not too high or too low. This helps prevent strain and allows for fluid movement across the keys (Page 74).
+
+4. **Fingering**: Familiarize yourself with the layout of the keyboard and the placement of notes. This visual reference will help you navigate the keys more effectively (Page 73).
+
+By following these guidelines, you can establish a solid foundation for playing the keyboard.
+2025-05-20 11:22:45,255 - knowledge_processor - INFO - Script completed in 8.46 seconds
