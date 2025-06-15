@@ -59,15 +59,17 @@
 ## 📁 Project Structure
 
 ai-music-teacher/
-├── app/
-│ ├── audio/ # Audio and MIDI processing
-│ ├── rag/ # Chatbot + Learning Plan logic
-│ ├── database/ # Sheet music storage
-│ ├── static/ # CSS, JS, media
-│ ├── templates/ # HTML templates
-│ └── routes/ # Flask routes
-├── requirements.txt
-└── README.md
+├── app/                     # Main application package
+│   ├── audio/               # Audio processing (e.g., MP3 to MIDI, librosa, basic-pitch)
+│   ├── rag/                 # Retrieval-Augmented Generation logic (chatbot, learning plan)
+│   ├── database/            # Sheet music database logic and models
+│   ├── static/              # Frontend assets (CSS, JS, images)
+│   ├── templates/           # HTML templates rendered by Flask
+│   └── routes/              # Flask route definitions
+├── requirements.txt         # Python dependencies
+├── run.py                   # Entry point to run the Flask app
+└── README.md                # Project documentation
+
 
 
 ## 🚀 Getting Started
