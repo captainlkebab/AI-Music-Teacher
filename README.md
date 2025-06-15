@@ -57,7 +57,7 @@
 ---
 
 ## 📁 Project Structure
-
+```
 ai-music-teacher/
 ├── app/                     # Main application package
 │   ├── audio/               # Audio processing (e.g., MP3 to MIDI, librosa, basic-pitch)
@@ -69,8 +69,7 @@ ai-music-teacher/
 ├── requirements.txt         # Python dependencies
 ├── run.py                   # Entry point to run the Flask app
 └── README.md                # Project documentation
-
-
+```
 
 ## 🚀 Getting Started
 
